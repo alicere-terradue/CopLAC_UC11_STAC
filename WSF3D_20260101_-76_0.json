@@ -124,7 +124,7 @@
     ],
     "assets": {
         "wsf-3d-raster": {
-            "href": "file:///Users/are/Documents/CopernicusLAC/CopernicusLAC_Services/UC11_Data/Local_Render_Attempts/wsf-3d/items/WSF3D_20260101_-76_0/WSF3D_20260101_-76_0_cog.tif",
+            "href": "./WSF3D_20260101_-76_0_cog.tif",
             "type": "image/tiff; application=geotiff; profile=cloud-optimized",
             "title": "WSF 3D raster data for tile N0 W-76",
             "description": "World Settlement Footprint 3D Data for tile N0 W-76",
