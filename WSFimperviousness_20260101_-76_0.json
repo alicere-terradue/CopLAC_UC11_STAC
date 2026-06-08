@@ -1,0 +1,160 @@
+{
+    "type": "Feature",
+    "stac_version": "1.1.0",
+    "stac_extensions": [
+        "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/render/v2.0.0/schema.json",
+        "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+    ],
+    "id": "WSFimperviousness_20260101_-76_0",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -76.01004945048919,
+                    -0.010061131182138361
+                ],
+                [
+                    -76.01004945048919,
+                    2.0100702797458414
+                ],
+                [
+                    -73.98991803956122,
+                    2.0100702797458414
+                ],
+                [
+                    -73.98991803956122,
+                    -0.010061131182138361
+                ],
+                [
+                    -76.01004945048919,
+                    -0.010061131182138361
+                ]
+            ]
+        ]
+    },
+    "bbox": [
+        -76.01004945048919,
+        -0.010061131182138361,
+        -73.98991803956122,
+        2.0100702797458414
+    ],
+    "properties": {
+        "title": "WSF Imperviousness data for tile N0 W-76",
+        "created": "2026-06-08T15:01:38Z",
+        "datetime": "2026-06-08T15:01:38Z",
+        "renders": {
+            "overview": {
+                "assets": [
+                    "wsf-imperviousness-raster"
+                ],
+                "title": "WSF Imperviousness data",
+                "nodata": 0,
+                "rescale": [
+                    0.0,
+                    1.0
+                ],
+                "colormap_name": "jet"
+            }
+        },
+        "proj:bbox": [
+            -76.01004945048919,
+            -0.010061131182138361,
+            -73.98991803956122,
+            2.0100702797458414
+        ],
+        "proj:code": "EPSG:4326",
+        "proj:transform": [
+            8.983152841195215e-05,
+            0.0,
+            -76.01004945048919,
+            0.0,
+            -8.983152841195215e-05,
+            2.0100702797458414,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "proj:shape": [
+            22488,
+            22488
+        ],
+        "proj:geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -76.01004945048919,
+                        -0.010061131182138361
+                    ],
+                    [
+                        -76.01004945048919,
+                        2.0100702797458414
+                    ],
+                    [
+                        -73.98991803956122,
+                        2.0100702797458414
+                    ],
+                    [
+                        -73.98991803956122,
+                        -0.010061131182138361
+                    ],
+                    [
+                        -76.01004945048919,
+                        -0.010061131182138361
+                    ]
+                ]
+            ]
+        }
+    },
+    "links": [
+        {
+            "rel": "xyz",
+            "href": "placeholder",
+            "type": "image/png",
+            "title": "WSF Imperviousness map as raster for tile N0 W-76 visualized through a XYZ",
+            "render": "overview"
+        },
+        {
+            "rel": "self",
+            "href": "./WSFimperviousness_20260101_-76_0.json",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "wsf-imperviousness-raster": {
+            "href": ".WSFimperviousness_20260101_-76_0_cog.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "WSF Imperviousness raster data for tile N0 W-76",
+            "description": "World Settlement Footprint Imperviousness Data for tile N0 W-76",
+            "raster:bands": [
+                {
+                    "nodata": 0.0,
+                    "sampling": "area",
+                    "data_type": "uint8",
+                    "statistics": {
+                        "minimum": 0.0,
+                        "maximum": 100.0,
+                        "mean": 0.048892254374078764,
+                        "stddev": 1.7039774367664702,
+                        "valid_percent": 100.0
+                    },
+                    "scale": 1.0,
+                    "offset": 0.0,
+                    "histogram": {
+                        "max": 100.0,
+                        "min": 0.0,
+                        "count": 11,
+                        "buckets": []
+                    }
+                }
+            ],
+            "roles": [
+                "data",
+                "visual"
+            ]
+        }
+    },
+    "collection": "wsf-imperviousness"
+}
