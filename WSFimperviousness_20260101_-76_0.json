@@ -124,7 +124,7 @@
     ],
     "assets": {
         "wsf-imperviousness-raster": {
-            "href": ".WSFimperviousness_20260101_-76_0_cog.tif",
+            "href": "./WSFimperviousness_20260101_-76_0_cog.tif",
             "type": "image/tiff; application=geotiff; profile=cloud-optimized",
             "title": "WSF Imperviousness raster data for tile N0 W-76",
             "description": "World Settlement Footprint Imperviousness Data for tile N0 W-76",
