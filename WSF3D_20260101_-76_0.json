@@ -51,11 +51,15 @@
                 ],
                 "title": "WSF 3D data",
                 "nodata": 0,
-                "rescale": [
-                    0.0,
-                    1.0
-                ],
-                "colormap_name": "jet"
+                "colormap": [
+                    [[0, 0.001],       [0,   0,   0,   0]],
+                    [[0.001, 4],       [0,  42, 255, 255]],
+                    [[4, 8.25],        [0, 212, 255, 255]],
+                    [[8.25, 12.5],     [127, 255, 127, 255]],
+                    [[12.5, 16.665],   [255, 212,   0, 255]],
+                    [[16.665, 20.8325],[255,  42,   0, 255]],
+                    [[20.8325, 25],    [127,   0,   0, 255]]
+                ]
             }
         },
         "proj:bbox": [
@@ -111,7 +115,7 @@
     "links": [
         {
             "rel": "xyz",
-            "href": "placeholder",
+            "href": "http://127.0.0.1:8000/stac/tiles/WebMercatorQuad/{z}/{x}/{y}.png?url=https://alicere-terradue.github.io/CopLAC_UC11_STAC/WSF3D_20260101_-76_0.json&assets=wsf-3d-raster&colormap=%5B%5B%5B0%2C0.001%5D%2C%5B0%2C0%2C0%2C0%5D%5D%2C%5B%5B0.001%2C4%5D%2C%5B0%2C42%2C255%2C255%5D%5D%2C%5B%5B4%2C8.25%5D%2C%5B0%2C212%2C255%2C255%5D%5D%2C%5B%5B8.25%2C12.5%5D%2C%5B127%2C255%2C127%2C255%5D%5D%2C%5B%5B12.5%2C16.665%5D%2C%5B255%2C212%2C0%2C255%5D%5D%2C%5B%5B16.665%2C20.8325%5D%2C%5B255%2C42%2C0%2C255%5D%5D%2C%5B%5B20.8325%2C25%5D%2C%5B127%2C0%2C0%2C255%5D%5D%5D",
             "type": "image/png",
             "title": "WSF 3D map as raster for tile N0 W-76 visualized through a XYZ",
             "render": "overview"
