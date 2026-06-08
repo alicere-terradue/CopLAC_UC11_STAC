@@ -1,0 +1,321 @@
+{
+    "type": "Feature",
+    "stac_version": "1.1.0",
+    "stac_extensions": [
+        "https://stac-extensions.github.io/classification/v2.0.0/schema.json",
+        "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/render/v2.0.0/schema.json",
+        "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+    ],
+    "id": "WSFtracker_20160701-20260101_-76_0",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -76.01004945048919,
+                    -0.010061131182138361
+                ],
+                [
+                    -76.01004945048919,
+                    2.0100702797458414
+                ],
+                [
+                    -73.98991803956122,
+                    2.0100702797458414
+                ],
+                [
+                    -73.98991803956122,
+                    -0.010061131182138361
+                ],
+                [
+                    -76.01004945048919,
+                    -0.010061131182138361
+                ]
+            ]
+        ]
+    },
+    "bbox": [
+        -76.01004945048919,
+        -0.010061131182138361,
+        -73.98991803956122,
+        2.0100702797458414
+    ],
+    "properties": {
+        "title": "WSF Tracker data for tile N0 W-76",
+        "created": "2026-05-29T14:04:29Z",
+        "datetime": "2026-05-29T14:04:29Z",
+        "renders": {
+            "overview": {
+                "assets": [
+                    "wsf-tracker-raster"
+                ],
+                "title": "Classified WSF Tracker data",
+                "colormap": {
+                    "1": "#000000",
+                    "2": "#2a0000",
+                    "3": "#550000",
+                    "4": "#800000",
+                    "5": "#aa0000",
+                    "6": "#d40000",
+                    "7": "#ff0000",
+                    "8": "#ff1500",
+                    "9": "#ff2a00",
+                    "10": "#ff4000",
+                    "11": "#ff5500",
+                    "12": "#ff6a00",
+                    "13": "#ff7f00",
+                    "14": "#ff9400",
+                    "15": "#ffaa00",
+                    "16": "#ffbf00",
+                    "17": "#ffd400",
+                    "18": "#ffdf00",
+                    "19": "#ffea00",
+                    "20": "#ffff00"
+                },
+                "resampling": "nearest",
+                "nodata": 0
+            }
+        },
+        "proj:bbox": [
+            -76.01004945048919,
+            -0.010061131182138361,
+            -73.98991803956122,
+            2.0100702797458414
+        ],
+        "proj:code": "EPSG:4326",
+        "proj:transform": [
+            8.983152841195215e-05,
+            0.0,
+            -76.01004945048919,
+            0.0,
+            -8.983152841195215e-05,
+            2.0100702797458414,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "proj:shape": [
+            22488,
+            22488
+        ],
+        "proj:geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -76.01004945048919,
+                        -0.010061131182138361
+                    ],
+                    [
+                        -76.01004945048919,
+                        2.0100702797458414
+                    ],
+                    [
+                        -73.98991803956122,
+                        2.0100702797458414
+                    ],
+                    [
+                        -73.98991803956122,
+                        -0.010061131182138361
+                    ],
+                    [
+                        -76.01004945048919,
+                        -0.010061131182138361
+                    ]
+                ]
+            ]
+        }
+    },
+    "links": [
+        {
+            "rel": "xyz",
+            "href": "placeholder",
+            "type": "image/png",
+            "title": "WSF Tracker map as raster for tile N0 W-76 visualized through a XYZ",
+            "render": "overview"
+        },
+        {
+            "rel": "self",
+            "href": "./WSFtracker_20160701-20260101_-76_0.json",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "wsf-tracker-raster": {
+            "href": "./WSFtracker_20160701-20260101_-76_0_cog.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "WSF Tracker raster data for tile N0 W-76",
+            "description": "World Settlement Footprint Tracker Data for tile N0 W-76",
+            "classification:classes": [
+                {
+                    "value": 1,
+                    "name": "July 2016",
+                    "title": "July 2016",
+                    "description": "July 2016",
+                    "color_hint": "#000000"
+                },
+                {
+                    "value": 2,
+                    "name": "January 2017",
+                    "title": "January 2017",
+                    "description": "January 2017",
+                    "color_hint": "#2a0000"
+                },
+                {
+                    "value": 3,
+                    "name": "July 2017",
+                    "title": "July 2017",
+                    "description": "July 2017",
+                    "color_hint": "#550000"
+                },
+                {
+                    "value": 4,
+                    "name": "January 2018",
+                    "title": "January 2018",
+                    "description": "January 2018",
+                    "color_hint": "#800000"
+                },
+                {
+                    "value": 5,
+                    "name": "July 2018",
+                    "title": "July 2018",
+                    "description": "July 2018",
+                    "color_hint": "#aa0000"
+                },
+                {
+                    "value": 6,
+                    "name": "January 2019",
+                    "title": "January 2019",
+                    "description": "January 2019",
+                    "color_hint": "#d40000"
+                },
+                {
+                    "value": 7,
+                    "name": "July 2019",
+                    "title": "July 2019",
+                    "description": "July 2019",
+                    "color_hint": "#ff0000"
+                },
+                {
+                    "value": 8,
+                    "name": "January 2020",
+                    "title": "January 2020",
+                    "description": "January 2020",
+                    "color_hint": "#ff1500"
+                },
+                {
+                    "value": 9,
+                    "name": "July 2020",
+                    "title": "July 2020",
+                    "description": "July 2020",
+                    "color_hint": "#ff2a00"
+                },
+                {
+                    "value": 10,
+                    "name": "January 2021",
+                    "title": "January 2021",
+                    "description": "January 2021",
+                    "color_hint": "#ff4000"
+                },
+                {
+                    "value": 11,
+                    "name": "July 2021",
+                    "title": "July 2021",
+                    "description": "July 2021",
+                    "color_hint": "#ff5500"
+                },
+                {
+                    "value": 12,
+                    "name": "January 2022",
+                    "title": "January 2022",
+                    "description": "January 2022",
+                    "color_hint": "#ff6a00"
+                },
+                {
+                    "value": 13,
+                    "name": "July 2022",
+                    "title": "July 2022",
+                    "description": "July 2022",
+                    "color_hint": "#ff7f00"
+                },
+                {
+                    "value": 14,
+                    "name": "January 2023",
+                    "title": "January 2023",
+                    "description": "January 2023",
+                    "color_hint": "#ff9400"
+                },
+                {
+                    "value": 15,
+                    "name": "July 2023",
+                    "title": "July 2023",
+                    "description": "July 2023",
+                    "color_hint": "#ffaa00"
+                },
+                {
+                    "value": 16,
+                    "name": "January 2024",
+                    "title": "January 2024",
+                    "description": "January 2024",
+                    "color_hint": "#ffbf00"
+                },
+                {
+                    "value": 17,
+                    "name": "July 2024",
+                    "title": "July 2024",
+                    "description": "July 2024",
+                    "color_hint": "#ffd400"
+                },
+                {
+                    "value": 18,
+                    "name": "January 2025",
+                    "title": "January 2025",
+                    "description": "January 2025",
+                    "color_hint": "#ffdf00"
+                },
+                {
+                    "value": 19,
+                    "name": "July 2025",
+                    "title": "July 2025",
+                    "description": "July 2025",
+                    "color_hint": "#ffea00"
+                },
+                {
+                    "value": 20,
+                    "name": "January 2026",
+                    "title": "January 2026",
+                    "description": "January 2026",
+                    "color_hint": "#ffff00"
+                }
+            ],
+            "raster:bands": [
+                {
+                    "nodata": 0.0,
+                    "sampling": "area",
+                    "data_type": "uint8",
+                    "statistics": {
+                        "minimum": 0.0,
+                        "maximum": 20.0,
+                        "mean": 0.0028772035073118883,
+                        "stddev": 0.15913967880744712,
+                        "valid_percent": 100.0
+                    },
+                    "scale": 1.0,
+                    "offset": 0.0,
+                    "histogram": {
+                        "max": 20.0,
+                        "min": 0.0,
+                        "count": 11,
+                        "buckets": []
+                    }
+                }
+            ],
+            "roles": [
+                "data",
+                "visual"
+            ]
+        }
+    },
+    "collection": "wsf-tracker"
+}
