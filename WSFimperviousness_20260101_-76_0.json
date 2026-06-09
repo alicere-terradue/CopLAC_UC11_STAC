@@ -50,12 +50,15 @@
                     "wsf-imperviousness-raster"
                 ],
                 "title": "WSF Imperviousness data",
-                "nodata": 0,
-                "rescale": [
-                    0.0,
-                    1.0
-                ],
-                "colormap_name": "jet"
+                "colormap": [
+                    [[0, 0.5],       "#00000000"],
+                    [[0.5, 16],      "#5dba00"],
+                    [[16, 33],       "#a1da00"],
+                    [[33, 50],       "#f2fa00"],
+                    [[50, 66.66],    "#ffb300"],
+                    [[66.66, 83.33], "#ff5900"],
+                    [[83.33, 101],   "#ff0000"]
+                ]
             }
         },
         "proj:bbox": [
