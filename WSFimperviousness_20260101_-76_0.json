@@ -114,7 +114,7 @@
     "links": [
         {
             "rel": "xyz",
-            "href": "placeholder",
+            "href": "http://127.0.0.1:8000/stac/tiles/WebMercatorQuad/{z}/{x}/{y}.png?url=https://alicere-terradue.github.io/CopLAC_UC11_STAC/WSFimperviousness_20260101_-76_0.json&assets=wsf-imperviousness-raster&colormap=%5B%5B%5B0%2C0.5%5D%2C%5B0%2C0%2C0%2C0%5D%5D%2C%5B%5B0.5%2C16%5D%2C%5B93%2C186%2C0%2C255%5D%5D%2C%5B%5B16%2C33%5D%2C%5B161%2C218%2C0%2C255%5D%5D%2C%5B%5B33%2C50%5D%2C%5B242%2C250%2C0%2C255%5D%5D%2C%5B%5B50%2C66.66%5D%2C%5B255%2C179%2C0%2C255%5D%5D%2C%5B%5B66.66%2C83.33%5D%2C%5B255%2C89%2C0%2C255%5D%5D%2C%5B%5B83.33%2C101%5D%2C%5B255%2C0%2C0%2C255%5D%5D%5D",
             "type": "image/png",
             "title": "WSF Imperviousness map as raster for tile N0 W-76 visualized through a XYZ",
             "render": "overview"
