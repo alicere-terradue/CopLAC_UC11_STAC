@@ -1,0 +1,172 @@
+{
+    "type": "Feature",
+    "stac_version": "1.1.0",
+    "stac_extensions": [
+        "https://stac-extensions.github.io/raster/v1.1.0/schema.json",
+        "https://stac-extensions.github.io/render/v2.0.0/schema.json",
+        "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+    ],
+    "id": "WSFpopulation_20250701_-78_-2",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -78.0100585990529,
+                    -2.010070279745841
+                ],
+                [
+                    -78.0100585990529,
+                    0.01006113118213864
+                ],
+                [
+                    -75.98992718812492,
+                    0.01006113118213864
+                ],
+                [
+                    -75.98992718812492,
+                    -2.010070279745841
+                ],
+                [
+                    -78.0100585990529,
+                    -2.010070279745841
+                ]
+            ]
+        ]
+    },
+    "bbox": [
+        -78.0100585990529,
+        -2.010070279745841,
+        -75.98992718812492,
+        0.01006113118213864
+    ],
+    "properties": {
+        "title": "WSF Population data for tile N-2 W-78",
+        "created": "2026-06-08T15:01:38Z",
+        "datetime": "2026-06-08T15:01:38Z",
+        "renders": {
+            "overview": {
+                "assets": [
+                    "wsf-population-raster"
+                ],
+                "title": "WSF Population data",
+                "colormap": [
+                    [[-1, -0.999],  "#00000000"],
+                    [[-0.999, 0],   "#000000"],
+                    [[0, 1.5],      "#ffffff"],
+                    [[1.5, 3.0],    "#7128fc"],
+                    [[3.0, 4.5],    "#34e87a"],
+                    [[4.5, 6.0],    "#c6eb05"],
+                    [[6.0, 61],     "#963714"]
+                ]
+            }
+        },
+        "proj:bbox": [
+            -78.0100585990529,
+            -2.010070279745841,
+            -75.98992718812492,
+            0.01006113118213864
+        ],
+        "proj:code": "EPSG:4326",
+        "proj:transform": [
+            8.983152841195215e-05,
+            0.0,
+            -78.0100585990529,
+            0.0,
+            -8.983152841195215e-05,
+            0.01006113118213864,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "proj:shape": [
+            22488,
+            22488
+        ],
+        "proj:geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -78.0100585990529,
+                        -2.010070279745841
+                    ],
+                    [
+                        -78.0100585990529,
+                        0.01006113118213864
+                    ],
+                    [
+                        -75.98992718812492,
+                        0.01006113118213864
+                    ],
+                    [
+                        -75.98992718812492,
+                        -2.010070279745841
+                    ],
+                    [
+                        -78.0100585990529,
+                        -2.010070279745841
+                    ]
+                ]
+            ]
+        }
+    },
+    "links": [
+        {
+            "rel": "xyz",
+            "href": "placeholder",
+            "type": "image/png",
+            "title": "WSF Population map as raster for tile N-2 W-78 visualized through a XYZ",
+            "render": "overview"
+        },
+        {
+            "rel": "self",
+            "href": "./WSFpopulation_20250701_-78_-2.json",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "wsf-population-raster": {
+            "href": "./WSFpopulation_20250701_-78_-2_cog.tif",
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "title": "WSF Population raster data for tile N-2 W-78",
+            "description": "World Settlement Footprint Population Data for tile N-2 W-78",
+            "raster:bands": [
+                {
+                    "nodata": 0.0,
+                    "sampling": "area",
+                    "data_type": "float64",
+                    "statistics": {
+                        "minimum": -1.0,
+                        "maximum": 60.78440644984436,
+                        "mean": -0.9974781316338178,
+                        "stddev": 0.06789000634120337,
+                        "valid_percent": 100.0
+                    },
+                    "scale": 1.0,
+                    "offset": 0.0,
+                    "histogram": {
+                        "max": 60.78440644984436,
+                        "min": -1.0,
+                        "count": 11,
+                        "buckets": []
+                    }
+                }
+            ],
+            "roles": [
+                "data",
+                "visual"
+            ]
+        },
+        "wsf-population-vector": {
+            "href": "s3://coplac-aux-data/wsf-population/WSFpopulation_20250701_-78_-2/WSFpopulation_-78_-2.gpkg",
+            "type": "application/geopackage+sqlite3",
+            "title": "WSF Population vector data for tile N-2 W-78",
+            "description": "World Settlement Footprint Population vector data for tile N-2 W-78",
+            "roles": [
+                "data"
+            ]
+        }
+    },
+    "collection": "wsf-population"
+}
